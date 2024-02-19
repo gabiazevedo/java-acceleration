@@ -1,7 +1,11 @@
 package com.betrybe.trybank;
 
 public class ContaBancaria {
-    double saldo = 0;
+    double saldo;
+
+    public ContaBancaria(double saldo) {
+        this.saldo = saldo;;
+    }
 
     void mostraMensagem() {
         System.out.println("Conta bancária acessada.");
